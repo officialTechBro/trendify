@@ -1,0 +1,88 @@
+const products = [
+  {
+    name: 'Airpods Wireless Bluetooth Headphones',
+    image: '/images/airpods.png',
+    description:
+      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 89.99,
+    countInStock: 10,
+    discount: 40,
+    numReviews: 12,
+  },
+  {
+    name: 'iPhone 11 Pro 256GB Memory',
+    image: '/images/phone.png',
+    description:
+      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 599.99,
+    countInStock: 7,
+    discount: 29,
+    numReviews: 8,
+  },
+  {
+    name: 'Cannon EOS 80D DSLR Camera',
+    image: '/images/camera.png',
+    description:
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 929.99,
+    countInStock: 5,
+    discount: 12,
+    numReviews: 12,
+  },
+  {
+    name: 'Sony Playstation 4 Pro White Version',
+    image: '/images/playstation.png',
+    description:
+      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 399.99,
+    countInStock: 11,
+    discount: 37,
+    numReviews: 12,
+  },
+  {
+    name: 'Logitech G-Series Gaming Mouse',
+    image: '/images/mouse.png',
+    description:
+      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+    brand: 'Logitech',
+    category: 'Electronics',
+    price: 49.99,
+    countInStock: 7,
+    discount: 15,
+    numReviews: 10,
+  },
+  {
+    name: 'Amazon Echo Dot 3rd Generation',
+    image: '/images/alexa.png',
+    description:
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 29.99,
+    countInStock: 0,
+    discount: 55,
+    numReviews: 12,
+  },
+  {
+    name: 'Lenovo Yoga 9i',
+    image: '/images/lenovo_yoga.png',
+    description:
+      'LENOVO Yoga 9i Laptop, Intel Core i7-1360P, 14" 2-in-1 2.8K OLED Touch Laptop, 16 GB DDR5 RAM, 2 TB PCIe SSD, Intel Iris Xe Graphics, Backlit Keyboard, Windows 11 Home, Oatmeal',
+    brand: 'Lenovo',
+    category: 'Electronics',
+    price: 4950.00,
+    countInStock: 10,
+    discount: 20,
+    numReviews: 30,
+  },
+]
+
+export default products
